@@ -3,8 +3,8 @@ import HomePage from "./Pages/HomePage";
 import MoviesPage from "./Pages/MoviesPage";
 import NotFoundPage from "./Pages/NotFoundPage";
 import MovieDetailsPage from "./Pages/MovieDetailsPage";
-import MovieCast from "./components/MovieCast/MovieCast";
-import MovieReviews from "./components/MovieReviews/MovieReviews";
+import MovieCast from "./Components/MovieCast";
+import MovieReviews from "./Components/MovieReviews";
 
 function App() {
     return (

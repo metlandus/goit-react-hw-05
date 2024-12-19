@@ -48,7 +48,7 @@ function MovieDetailsPage() {
             {loading && <p>Loading</p>}
             {error && <p>{error}</p>}
             {movieDetails && (
-                <div className={styles.container}>
+                <div>
                     <img
                         src={`https://image.tmdb.org/t/p/w200${movieDetails.poster_path}`}
                         alt={`${movieDetails.title} poster`}
@@ -60,7 +60,7 @@ function MovieDetailsPage() {
                         <p>{movieDetails.overview}</p>
                         <h3>Genres</h3>
                         <p>{movieDetails.genres.map((g) => g.name + ", ")}</p>
-                        <nav className={styles.nav}>
+                        <nav>
                             <NavLink to="cast">Cast</NavLink>
                             <NavLink to="reviews">Reviews</NavLink>
                         </nav>

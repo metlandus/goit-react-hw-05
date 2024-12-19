@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Navigation from "../../components/Navigation/Navigation";
-import MovieList from "../../components/MovieList/MovieList";
+import Navigation from "../Components/Navigation";
+import MovieList from "../Components/MovieList";
 
 const options = {
     method: "GET",
